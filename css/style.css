@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Philosopher";
+    src: url(../fonts/philosopher.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #070707;
+}
