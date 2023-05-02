@@ -1,0 +1,38 @@
+.header-background-img {
+    background-image: url(/localData/background1.png);
+    width: 100%;
+    max-width: 1920px;
+    height: 948px;
+}
+
+nav {
+    /* border-bottom: 1px solid #828282;
+    height: 88px;
+    display: flex;
+    align-items: center; */
+    justify-content: space-between;
+}
+
+nav a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #202020;
+
+}
+
+nav a img{
+
+    width: 16px;
+    height: 16px;
+    /* right: 170px; */
+    /* top: 20px; */
+    
+    /* background: #008139; */
+
+}
