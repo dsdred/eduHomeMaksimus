@@ -12,3 +12,71 @@
     box-sizing: border-box;
     color: #070707;
 }
+
+h1 {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57px;
+    line-height: 107%;
+    /* or 61px */
+
+
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #363434;
+}
+
+.standartBtn {
+    width: 218px;
+    height: 60px;
+    background: linear-gradient(180deg, #7EB2FF 0%, #0057FF 100%);
+    border-radius: 5px;
+}
+
+
+/* временно */
+.footerMenu {
+    width: 1922px;
+    height: 138px;
+
+
+    background: #0B0B0B;
+
+}
+
+.footerMenu div a {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+
+    color: #EAEAEA;
+
+}
+
+.privacyPolicy {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+
+    color: #7D808A;
+
+}
