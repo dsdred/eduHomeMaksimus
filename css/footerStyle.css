@@ -1,0 +1,33 @@
+
+.footerMenu {
+    width: 1922px;
+    height: 138px;
+
+    background: #0B0B0B;
+
+}
+
+.footerMenu div a {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+
+    color: #EAEAEA;
+
+}
+
+.privacyPolicy {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+
+    color: #7D808A;
+
+}

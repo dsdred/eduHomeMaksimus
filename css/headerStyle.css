@@ -5,12 +5,31 @@
     height: 948px;
 }
 
+.header-Logo img {
+    width: 152px;
+    height: 49px;
+    margin-top: 9px;
+    margin-left: 375px;
+}
+
 nav {
     /* border-bottom: 1px solid #828282;
     height: 88px;
     display: flex;
     align-items: center; */
     justify-content: space-between;
+}
+
+header p {
+
+    font-family: 'AlegreyaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+
+    color: #646464;
+
 }
 
 nav a {
