@@ -1,6 +1,6 @@
 .header-background-img {
-    background-image: url(/localData/background1.png);
-    width: 100%;
+    background-image: url(/localData/img1920/background1.png);
+    width: 1920px;
     max-width: 1920px;
     height: 948px;
 }
