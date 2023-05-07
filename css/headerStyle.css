@@ -6,18 +6,21 @@ header {
 }
 
 .header-Logo img {
+
+    position: absolute;
     width: 152px;
     height: 49px;
     margin-top: 9px;
     margin-left: 375px;
+
 }
 
 nav {
-    /* border-bottom: 1px solid #828282;
-    height: 88px;
-    display: flex;
-    align-items: center; */
-    justify-content: space-between;
+    position: absolute;
+    width: 875px;
+    height: 25px;
+    left: 499px;
+    top: 19px;
 }
 
 header p {
@@ -45,13 +48,11 @@ nav a {
 
 }
 
-nav a img{
 
-    width: 16px;
-    height: 16px;
-    /* right: 170px; */
-    /* top: 20px; */
-    
-    /* background: #008139; */
-
+.titleAndButton {
+    position: absolute;
+    width: 613px;
+    height: 342px;
+    left: 375px;
+    top: 157px;
 }

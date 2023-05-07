@@ -24,10 +24,15 @@
 
 body {
 
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+
+    width: 100wv;
+    max-width: 1920px;
+    overflow: visible;
+    margin: 0 auto;
 
 }
 
