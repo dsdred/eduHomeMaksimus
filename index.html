@@ -14,20 +14,20 @@
 <body>
     <header>
 
-        <div class="header-Logo">
-            <img src="./localData/img1920/Logo1.png" alt="Логотип" title="Логотип">
-        </div>
-        <nav>
-            <a href="#aboutUs" class="active_section">О нас</a>
-            <a href="#servicesAndPrices">Услуги и цены</a>
-            <a href="#photoAlbum">Фотоальбом</a>
-            <a href="#contacts">Контакты</a>
-            <a href="#telephone">
+        <div class="headMenu">
+
+            <img src="./localData/img1920/Logo1.png" alt="Логотип" title="Логотип" class="header-Logo">
+            <nav>
+                <a href="#aboutUs" class="active_section">О нас</a>
+                <a href="#servicesAndPrices">Услуги и цены</a>
+                <a href="#photoAlbum">Фотоальбом</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+            <a href="#telephone" class="telephoneHeadMenu">
                 <img src="./localData/img1920/tel.svg" alt="Телефон">+7 (000) 000-00-00
             </a>
+        </div>
 
-        </nav>
-            
         <div class="titleAndButton">
             <h1>Окунитесь в мир<br>лошадей вместе с нами</h1>
             <hr>
@@ -75,41 +75,42 @@
 <!-- servicesAndPrices -->
     <section id="servicesAndPrices">
         <h2>Почему нас выбирают</h2>
+
+        <div class="servicesAndPrices_container">
+            <div>
+                <img src="./localData/img1920/map1.png" alt="Удобное расположение" title="Удобное расположение">
+                <p>Удобное расположение</p>
+                <p>Мы находимся недалеко<br>
+                    от автостанции «Восточный» чтобы<br>
+                    вам было удобно добираться
+                </p>
+            </div>
+            <div>
+                <img src="./localData/img1920/table1.png" alt="Обеденная зона" title="Обеденная зона">
+                <p>Обеденная зона</p>
+                <p>Имеется столовая, чтобы Вы могли<br>
+                    перекусить и немного отдохнуть.<br>
+                    Бесплатно чай, кофе, печенки.
+                </p>
+            </div>
+            <div>
+                <img src="./localData/img1920/clock1.png" alt="Профессиональные тренера" title="Профессиональные тренера">
+                <p>Профессиональные тренера</p>
+                <p>Наши преподаватели имеют награды<br>
+                    в конном спорте, и отличные отзывы<br>
+                    среди наших учеников
+                </p>
+            </div>
+            <div>
+                <img src="./localData/img1920/car1.png" alt="Бесплатная парковка" title="Бесплатная парковка">
+                <p>Бесплатная парковка</p>
+                <p>У нас имеется просторная парковка,<br>
+                    чтобы вы могли без проблем<br>
+                    припарковать свой автомобиль
+                </p>
+            </div>
+        </div>
     </section>
-    <div class="servicesAndPrices_container">
-        <div>
-            <img src="./localData/img1920/map1.png" alt="Удобное расположение" title="Удобное расположение">
-            <p>Удобное расположение</p>
-            <p>Мы находимся недалеко<br>
-                от автостанции «Восточный» чтобы<br>
-                вам было удобно добираться
-            </p>
-        </div>
-        <div>
-            <img src="./localData/img1920/table1.png" alt="Обеденная зона" title="Обеденная зона">
-            <p>Обеденная зона</p>
-            <p>Имеется столовая, чтобы Вы могли<br>
-                перекусить и немного отдохнуть.<br>
-                Бесплатно чай, кофе, печенки.
-            </p>
-        </div>
-        <div>
-            <img src="./localData/img1920/clock1.png" alt="Профессиональные тренера" title="Профессиональные тренера">
-            <p>Профессиональные тренера</p>
-            <p>Наши преподаватели имеют награды<br>
-                в конном спорте, и отличные отзывы<br>
-                среди наших учеников
-            </p>
-        </div>
-        <div>
-            <img src="./localData/img1920/car1.png" alt="Бесплатная парковка" title="Бесплатная парковка">
-            <p>Бесплатная парковка</p>
-            <p>У нас имеется просторная парковка,<br>
-                чтобы вы могли без проблем<br>
-                припарковать свой автомобиль
-            </p>
-        </div>
-    </div>
 
  <!-- photoAlbum -->   
     <section id="photoAlbum">
@@ -382,8 +383,8 @@
 
             </div>
             <div class="privacyPolicy">
-                <a href="#personalData">Соглашение на обработку персональных данных</a>
-                <a href="#privacyPolicy">Политика конфенденциальности</a>
+                <button>Соглашение на обработку персональных данных</button>
+                <button>Политика конфенденциальности</button>
             </div>
         </div>
     </footer>

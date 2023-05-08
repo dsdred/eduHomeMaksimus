@@ -5,23 +5,43 @@ header {
     height: 948px;
 }
 
-.header-Logo img {
+.headMenu {
+
+    position: absolute;
+    width: 1170px;
+    height: 60px;
+    left: 375px;
+    top: 9px;
+    
+}
+
+.header-Logo {
 
     position: absolute;
     width: 152px;
     height: 49px;
-    margin-top: 9px;
-    margin-left: 376px;
+    /* margin-top: 9px;
+    margin-left: 376px; */
 
 }
 
-/* nav {
+header nav {
     position: absolute;
-    width: 875px;
-    height: 25px;
-    left: 499px;
+    width: 427px;
+    height: 15px;
+    right: 243px;
     top: 19px;
-} */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #202020;
+}
 
 /* header p {
 
