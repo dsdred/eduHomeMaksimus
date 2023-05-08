@@ -1,13 +1,28 @@
-
-.footerMenu {
-    width: 1922px;
+footer {
     height: 138px;
+    width: 100wv;
+    max-width: 1920px;
+    overflow: visible;
+    /* margin: 0 auto; */
 
     background: #0B0B0B;
+    display: flex;
+}
+
+
+.footerMenu {
+
+    background: white;
+    min-width: 1171px;
+    min-height: 89px;
+    margin: 24px 375px 24px 375px;
 
 }
 
-.footerMenu div a {
+
+
+
+/* .footerMenu div a {
 
     font-family: 'Roboto';
     font-style: normal;
@@ -30,4 +45,4 @@
 
     color: #7D808A;
 
-}
+} */

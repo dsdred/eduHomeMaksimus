@@ -152,7 +152,10 @@ header nav {
     width: 26px;
     height: 1px;
 
+    border: none;
+    color: #8F8F8F;
     background: #8F8F8F;
+    background-color: #8F8F8F;
 
     flex: none;
     order: 1;
