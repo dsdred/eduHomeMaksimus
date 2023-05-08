@@ -7,6 +7,7 @@ header {
     max-width: 1920px;
     overflow: visible;
     margin: 0 auto;
+    /* background: blue; */
 
 }
 
@@ -120,7 +121,7 @@ header nav {
 
 /* Заголовок и кнопка ++ */
 .titleAndButton {
-
+    
     position: absolute;
     margin-top: 88px;
     margin-left: 376px;
@@ -170,3 +171,36 @@ header nav {
     margin-top: 27px;
 }
 /* Заголовок и кнопка -- */
+
+/* Бантики ++ */
+.leftBush {
+
+    position: absolute;
+    width: 211px;
+    height: 435px;
+    top: 449px;
+
+}
+
+.bigHorse {
+
+    position: absolute;
+    width: 557px;
+    height: 671px;
+    top: 181px;
+    margin-left: 973px;
+    /* left: 973px;*/
+    /* top: 181px;  */
+
+}
+
+/* fix */
+.Heavens {
+    position: absolute;
+    width: 1920px;
+    height: 170px;
+    /* left: 0px; */
+    top: 688px;
+}
+
+/* Бантики -- */
