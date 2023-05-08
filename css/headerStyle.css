@@ -189,9 +189,15 @@ header nav {
     height: 671px;
     top: 181px;
     margin-left: 973px;
-    /* left: 973px;*/
-    /* top: 181px;  */
 
+}
+
+.Seagulls {
+    position: absolute;
+    width: 272px;
+    height: 86px;
+    top: 157px;
+    margin-left: 1409px;
 }
 
 /* fix */
