@@ -55,6 +55,26 @@ header {
     margin-left: 376px;
 
 }
+
+.titleAndButton p {
+    font-family: 'AlegreyaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+
+
+    color: #646464;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.titleAndButton strong {
+    color: #646464;
+}
+
+
 .titleAndButton hr {
     width: 26px;
     height: 1px;
