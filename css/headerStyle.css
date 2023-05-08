@@ -1,8 +1,13 @@
 header {
+
     background-image: url(/localData/img1920/background1.jpg);
-    width: 1920px;
-    max-width: 1920px;
     height: 948px;
+
+    width: 100wv;
+    max-width: 1920px;
+    overflow: visible;
+    margin: 0 auto;
+
 }
 
 .headMenu {
@@ -12,7 +17,7 @@ header {
     height: 60px;
     left: 375px;
     top: 9px;
-    
+
 }
 
 .header-Logo {
@@ -20,56 +25,45 @@ header {
     position: absolute;
     width: 152px;
     height: 49px;
-    /* margin-top: 9px;
-    margin-left: 376px; */
-
+    
 }
 
-header nav {
+.mainMenu {
+
+    list-style: none;
+    margin: 19px 243px 0 499px;
+
+    background: white;
+
+    font-family: 'Roboto';
+
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #202020;
+  }
+
+.mainMenu li {
+    display: inline-block;
+}
+
+
+
+
+.telephoneHeadMenu {
+
     position: absolute;
-    width: 427px;
-    height: 15px;
-    right: 243px;
-    top: 19px;
+    width: 186px;
+    height: 44px;
+    left: 984px;
+    top: 16px;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    text-align: right;
-    text-transform: uppercase;
-
-    color: #202020;
 }
 
-/* header p {
-
-    font-family: 'AlegreyaSans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 140%;
-
-    color: #646464;
-
-} */
-
-/* nav a {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    text-align: right;
-    text-transform: uppercase;
-
-    color: #202020;
-
-} */
 
 
 .titleAndButton {
+
     position: absolute;
     margin-top: 157px;
     margin-left: 376px;
@@ -77,6 +71,7 @@ header nav {
 }
 
 .titleAndButton p {
+
     font-family: 'AlegreyaSans';
     font-style: normal;
     font-weight: 400;
@@ -89,6 +84,7 @@ header nav {
     flex: none;
     order: 2;
     flex-grow: 0;
+
 }
 .titleAndButton strong {
     color: #646464;
