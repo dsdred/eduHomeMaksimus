@@ -64,6 +64,9 @@ header {
     flex: none;
     order: 1;
     flex-grow: 0;
+
+    margin-top: 27px;
+    margin-bottom: 27px;
 }
 
 .recordButton {
@@ -71,4 +74,6 @@ header {
     height: 70px;
     left: 0px;
     top: 272px;
+
+    margin-top: 27px;
 }
