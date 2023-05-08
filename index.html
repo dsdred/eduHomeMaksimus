@@ -8,6 +8,9 @@
     <link rel="icon" href="./localData/horseIco.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/headerStyle.css">
+    
+
+    <link rel="stylesheet" href="css/contactsStyle.css">
     <link rel="stylesheet" href="css/footerStyle.css">
 </head>
 
@@ -29,14 +32,14 @@
                 <p>Ежедневно 9:00 - 22:00</p>
             </div>
         </div>
+
         <section class="titleAndButton">
             <h1>Окунитесь в мир<br>лошадей вместе с нами</h1>
             <hr>
             <p>Уроки верховой езды, фотосессии и мероприятия<br>в частном конном клубе <strong>г. Санкт-Петербург</strong></p>
             <button class="standartBtn standartTextBtn recordBtn">Записаться</button>
-
-            
         </section>
+
         <img src="./localData/img1920/bigHorse1.svg" alt="Лошадь" title="Лошадь" class="bigHorse">
         <!-- /* fix */ -->
         <img src="./localData/img1920/Heavens.svg" alt="Облака" title="Облака" class="Heavens">
@@ -178,13 +181,13 @@
                 руководством опытных теннеров
             </p>
         </div>
-        <button>Записаться</button>
+        <button class="standartBtn standartTextBtn">Записаться</button>
     </section>
 
-<!-- contacts -->   
-    <section id="contacts">
+<!-- visitors -->   
+    <section id="visitors">
         <h2>Наши посетители</h2>
-        <div class="contacts_container">
+        <div class="visitors_container">
             <img src="" alt="">
             <img src="" alt="">
             <img src="" alt="">
@@ -196,7 +199,7 @@
             <img src="" alt="">
             <img src="" alt="">
         </div>
-        <div class="navigation">
+        <div class="dot_navigation">
             <button><img src="" alt=""></button>
             <img src="" alt="" class="active_navigation">
             <img src="" alt="">
@@ -244,7 +247,7 @@
             <p>Уроки профессиональной верховой<br>езды для любителей и начинающих
             </p>
         </div>
-        <div class="navigation">
+        <div class="dot_navigation">
             <button><img src="" alt=""></button>
             <img src="" alt="">
             <img src="" alt="" class="active_navigation">
@@ -254,9 +257,9 @@
         </div>
     </section>
 
-<!-- questionsForm -->
+<!-- feedback -->
     <section>
-        <form id="telephone">
+        <form id="feedback">
             <fieldset>
                 <legend>Отвечаем на вопросы</legend>
                 <br>
@@ -273,7 +276,7 @@
                     <input type="tel" placeholder="Ваш телефон">
                 </label>
                 <br>
-                <button type="submit">Задать вопрос</button>
+                <button type="submit" class="standartBtn standartTextBtn">Задать вопрос</button>
                 <br>
                 <div>
                     <input type="checkbox" id="agreement_checkbox" name="agreement_checkbox">
@@ -286,58 +289,61 @@
 <!-- customersSay -->
     <section>
         <h2>О нас говорят клиенты</h2>
-        <div>
-            <p>Развивает силу, гибкость и координацию всадника; Выпрямляется<br>
-                осанка и повышается стрессоустойчивость; Общение с лошадью<br>
-                лечит умственные отклонения.
-            </p>
-            <br>
-            <button>Подробнее</button>
+        <article>
             <div>
-                <img src="Константин Сюткин" alt="Константин Сюткин">
+                <p>Развивает силу, гибкость и координацию всадника; Выпрямляется<br>
+                    осанка и повышается стрессоустойчивость; Общение с лошадью<br>
+                    лечит умственные отклонения.
+                </p>
+                <br>
+                <button class="standartBtn standartTextBtn">Подробнее</button>
                 <div>
-                    <p>Константин Сюткин</p>
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="Константин Сюткин" alt="Константин Сюткин">
+                    <div>
+                        <p>Константин Сюткин</p>
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+                    <img src="" alt="quote">
                 </div>
-                <img src="" alt="quote">
             </div>
-        </div>
-        <div>
-            <p>Позитивные эмоции, расслабление, чувство ответственности<br>
-                и даже некоторой сказочности, сразу появляется красивая осанка,<br>
-                работают все группы мышц.
-            </p>
-            <br>
-            <button>Подробнее</button>
             <div>
-                <img src="Валентина Сорокина" alt="Валентина Сорокина">
+                <p>Позитивные эмоции, расслабление, чувство ответственности<br>
+                    и даже некоторой сказочности, сразу появляется красивая осанка,<br>
+                    работают все группы мышц.
+                </p>
+                <br>
+                <button>Подробнее</button>
                 <div>
-                    <p>Валентина Сорокина</p>
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="Валентина Сорокина" alt="Валентина Сорокина">
+                    <div>
+                        <p>Валентина Сорокина</p>
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+                    <img src="" alt="quote">
                 </div>
-                <img src="" alt="quote">
             </div>
-        </div>
-        <div>
-            <p>Плюсов до безумия много! Реакция, общение с животным, любовь,<br>
-                понимание, взаимопонимание, терпение, здесь можно<br>
-                перечислять и перечислять очень много всего!
-            </p>
-            <br>
-            <button>Подробнее</button>
             <div>
-                <img src="Светлана Мирная" alt="Светлана Мирная">
+                <p>Плюсов до безумия много! Реакция, общение с животным, любовь,<br>
+                    понимание, взаимопонимание, терпение, здесь можно<br>
+                    перечислять и перечислять очень много всего!
+                </p>
+                <br>
+                <button class="standartBtn standartTextBtn">Подробнее</button>
                 <div>
-                    <p>Светлана Мирная</p>
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="Светлана Мирная" alt="Светлана Мирная">
+                    <div>
+                        <p>Светлана Мирная</p>
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+                    <img src="" alt="quote">
                 </div>
-                <img src="" alt="quote">
             </div>
-        </div>
-        <div class="navigation">
+        </article>
+        
+        <div class="dot_navigation">
             <button><img src="" alt=""></button>
             <img src="" alt="">
             <img src="" alt="">
@@ -347,38 +353,38 @@
         </div>
     </section>
     
-    <footer>
-        <div class="bigmap">
+    <div class="bigMap">
+        <section id="contacts" class="contacts">
+            <h2>Контакты</h2>
+            <hr class="grenLine">
             <div>
-                <h2>Контакты</h2>
-                <p class="grenLine"></p>
-                <div>
-                    <img src="" alt="">
-                    <p>ул. Ленина, 25, офис 65</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p>+7 (495) 000-00-00</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p>mail@somemail.com</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p>Пн-Пт: 10:00 - 19:00<br>
-                        Сб: 10:00 - 17:00<br>
-                        Вс: выходной
-                    </p>
-                </div>
                 <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <p>ул. Ленина, 25, офис 65</p>
             </div>
-        </div>
+            <div>
+                <img src="" alt="">
+                <p>+7 (495) 000-00-00</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>mail@somemail.com</p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p>Пн-Пт: 10:00 - 19:00<br>
+                    Сб: 10:00 - 17:00<br>
+                    Вс: выходной
+                </p>
+            </div>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </section>
+    </div>
 
 <!-- footerMenu -->
+    <footer>
         <div class="footerMenu">
             <div class="footerMenu-Logo">
                 <picture>
