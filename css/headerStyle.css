@@ -11,19 +11,19 @@ header {
     width: 152px;
     height: 49px;
     margin-top: 9px;
-    margin-left: 375px;
+    margin-left: 376px;
 
 }
 
-nav {
+/* nav {
     position: absolute;
     width: 875px;
     height: 25px;
     left: 499px;
     top: 19px;
-}
+} */
 
-header p {
+/* header p {
 
     font-family: 'AlegreyaSans';
     font-style: normal;
@@ -33,9 +33,9 @@ header p {
 
     color: #646464;
 
-}
+} */
 
-nav a {
+/* nav a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -46,13 +46,29 @@ nav a {
 
     color: #202020;
 
-}
+} */
 
 
 .titleAndButton {
     position: absolute;
-    width: 613px;
-    height: 342px;
-    left: 375px;
-    top: 157px;
+    margin-top: 157px;
+    margin-left: 376px;
+
+}
+.titleAndButton hr {
+    width: 26px;
+    height: 1px;
+
+    background: #8F8F8F;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.recordButton {
+    width: 270px;
+    height: 70px;
+    left: 0px;
+    top: 272px;
 }
