@@ -10,13 +10,13 @@ header {
 
 }
 
+/* Меню ++ */
 .headMenu {
 
-    position: absolute;
-    width: 1170px;
+    background: white;
+    margin-top: 9px;
+    margin-left: 376px;
     height: 60px;
-    left: 375px;
-    top: 9px;
 
 }
 
@@ -28,7 +28,7 @@ header {
     
 }
 
-.mainMenu {
+/* .mainMenu {
 
     list-style: none;
     margin: 19px 243px 0 499px;
@@ -45,23 +45,46 @@ header {
 
 .mainMenu li {
     display: inline-block;
-}
+} */
 
 
 
-
-.telephoneHeadMenu {
+.telephoneHead {
 
     position: absolute;
     width: 186px;
     height: 44px;
-    left: 984px;
-    top: 16px;
+    margin-left: 1386px;
+    margin-top: 7px;
 
 }
 
+.telephoneHead a {
 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
 
+    color: #202020;
+
+}
+
+.telephoneHead p {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #7D808A;
+
+}
+/* Меню -- */
+
+/* Окунитесь в мир лошадей ++ */
 .titleAndButton {
 
     position: absolute;
@@ -113,3 +136,4 @@ header {
 
     margin-top: 27px;
 }
+/* Окунитесь в мир лошадей -- */
