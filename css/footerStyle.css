@@ -75,12 +75,37 @@ footer a {
     border-radius: 5px;
 
     background: none;
-    /* box-sizing: border-box; */
 
     margin-left: 970px;
-    margin-top: 6px;
+    margin-top: 7px;
 }
 
+.privacyPolicy {
 
+    /* background: cadetblue; */
+    min-width: 544px;
+    min-height: 15px;
 
+    margin-top: 26px;
+}
+
+.privacyPolicy button {
+    
+    border: none;
+    background: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+
+    color: #7D808A;
+
+}
+
+.privacyBtn {
+    margin-left: 40px;
+}
  
