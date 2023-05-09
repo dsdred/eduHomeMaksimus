@@ -120,7 +120,16 @@
 }
 
 .contacts-clock span {
+    
     text-align: left;
     display: block;
-    padding: 5px;
+    /* padding: 1px; */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #363434;
+
 }
