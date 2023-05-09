@@ -38,6 +38,7 @@
 }
 
 .grenLine {
+    
     width: 26px;
     height: 1px;
 
@@ -51,8 +52,75 @@
     order: 1;
     flex-grow: 0;
 
-    margin-top: 27px;
-    margin-bottom: 27px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     margin-left: 70px;
 
+}
+
+
+
+.contacts p {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+
+    color: #363434;
+
+}
+
+.contacts-adress-img {
+    margin: 0px auto auto 70px;
+    width: 14px;
+    height: 22px;
+}
+
+.contacts-adress {
+    margin: -24px auto auto 111px;
+
+}
+
+.contacts-phone-img {
+    margin: 26px auto auto 70px;
+    width: 19px;
+    height: 19px;
+}
+
+.contacts-phone {
+    margin: -22px auto auto 111px;
+
+}
+
+.contacts-mail-img {
+    margin: 26px auto auto 70px;
+    width: 22px;
+    height: 16px;
+}
+
+.contacts-mail {
+    margin: -22px auto auto 111px;
+
+}
+
+.contacts-clock-img {
+    margin: 26px auto auto 70px;
+    width: 20px;
+    height: 20px;
+}
+
+.contacts-clock {
+
+    margin: -27px auto auto 111px;
+
+}
+
+.contacts-clock span {
+    text-align: left;
+    display: block;
+    padding: 5px;
 }
