@@ -120,7 +120,7 @@
 }
 
 .contacts-clock span {
-    
+
     text-align: left;
     display: block;
     /* padding: 1px; */
@@ -132,4 +132,17 @@
     line-height: 28px;
     color: #363434;
 
+}
+
+.contactsMenu {
+    width: 167px;
+    margin-top: 30px;
+    margin-left: 282px;
+    
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    /* background: #008139; */
 }
