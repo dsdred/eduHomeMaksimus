@@ -9,6 +9,17 @@ footer {
     display: flex;
 }
 
+footer a {
+    text-decoration: none; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+
+    color: #EAEAEA;
+}
 
 .footerMenu {
 
@@ -19,6 +30,30 @@ footer {
 
 }
 
+.footerMainMenu {
+
+    background: cadetblue;
+
+    min-width: 364px;
+    min-height: 15px;
+
+    margin: -37px 575px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+
+    color: #EAEAEA;
+
+    list-style-type: none;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
