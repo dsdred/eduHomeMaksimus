@@ -3,7 +3,6 @@ footer {
     width: 100wv;
     max-width: 1920px;
     overflow: visible;
-    /* margin: 0 auto; */
 
     background: #0B0B0B;
     display: flex;
@@ -23,7 +22,6 @@ footer a {
 
 .footerMenu {
 
-    /* background: white; */
     min-width: 1171px;
     min-height: 89px;
     margin: 24px 375px 24px 375px;
@@ -31,8 +29,6 @@ footer a {
 }
 
 .footerMainMenu {
-
-    /* background: cadetblue; */
 
     min-width: 364px;
     min-height: 15px;
@@ -82,7 +78,6 @@ footer a {
 
 .privacyPolicy {
 
-    /* background: cadetblue; */
     min-width: 544px;
     min-height: 15px;
 
