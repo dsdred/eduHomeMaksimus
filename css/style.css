@@ -113,7 +113,13 @@ h2 {
 }
 
 .standartNavigationLeftBtn:hover {
+    
     background-image: url(../localData/navigation/leftActive.png);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
 }
 
 .standartNavigationRightBtn {
@@ -127,5 +133,11 @@ h2 {
 }
 
 .standartNavigationRightBtn:hover {
+
     background-image: url(../localData/navigation/rightActive.png);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
 }
