@@ -91,3 +91,41 @@ h2 {
     transform: matrix(1, 0, 0, -1, 0, 0);
     border: none;
 }
+
+.standartNavigationBtn {
+    border:none;
+    background: none;
+
+    /* background: linear-gradient(180deg, #9BCFFF 0%, #FFF8B6 0.01%, #FFC700 100%);
+    box-shadow: 0px 1px 0px #C89C00;
+    transform: matrix(-1, 0, 0, 1, 0, 0); */
+
+}
+
+.standartNavigationLeftBtn {
+
+    background-image: url(../localData/navigation/left.png);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.standartNavigationLeftBtn:hover {
+    background-image: url(../localData/navigation/leftActive.png);
+}
+
+.standartNavigationRightBtn {
+
+    background-image: url(../localData/navigation/right.png);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.standartNavigationRightBtn:hover {
+    background-image: url(../localData/navigation/rightActive.png);
+}
