@@ -23,7 +23,7 @@ footer a {
 
 .footerMenu {
 
-    background: white;
+    /* background: white; */
     min-width: 1171px;
     min-height: 89px;
     margin: 24px 375px 24px 375px;
@@ -32,7 +32,7 @@ footer a {
 
 .footerMainMenu {
 
-    background: cadetblue;
+    /* background: cadetblue; */
 
     min-width: 364px;
     min-height: 15px;
@@ -53,31 +53,34 @@ footer a {
 
     justify-content: space-between;
     align-items: center;
+
 }
 
+.requestCall {
 
-
-/* .footerMenu div a {
+    min-width: 201px;
+    min-height: 46px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    text-align: right;
+    font-size: 15px;
+    line-height: 18px;
 
-    color: #EAEAEA;
+    text-align: center;
 
+    color: #F5F5F5;
+
+    border: 1px solid #FDE724;
+    border-radius: 5px;
+
+    background: none;
+    /* box-sizing: border-box; */
+
+    margin-left: 970px;
+    margin-top: 6px;
 }
 
-.privacyPolicy {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    text-decoration-line: underline;
 
-    color: #7D808A;
 
-} */
+ 
