@@ -87,10 +87,16 @@ h2 {
 
 
 .dot_navigation {
-    background-color: aqua;
+
     width: 210px;
     height: 40px;
     margin-left: 855px;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .standartNavigationLeftBtn {
