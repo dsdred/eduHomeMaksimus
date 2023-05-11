@@ -1,12 +1,12 @@
 .contactsMap {
 
+    margin-top: 150px;
+
     background: url(../localData/img1920/bigMap.png);
     height: 650px;
-
     width: 100wv;
     max-width: 1920px;
     overflow: visible;
-    /* margin: 0 auto; */
     display: flex;
 
 }
@@ -67,8 +67,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
-    /* identical to box height, or 100% */
-
 
     color: #363434;
 
@@ -143,6 +141,55 @@
 
     justify-content: space-between;
     align-items: center;
+}
+.contactsMenuInstagram {
+    
+    background: url(../localData/img1920/instagram.png);
+    width: 32px;
+    height: 32px;
+    border-radius: 47px;
+    border: none;
 
-    /* background: #008139; */
+}
+.contactsMenuInstagram:hover {
+    background: url(../localData/img1920/instagramA.png);
+}
+
+.contactsMenuYoutube {
+    
+    background: url(../localData/img1920/youtoobe.png);
+    width: 32px;
+    height: 32px;
+    border-radius: 47px;
+    border: none;
+
+}
+.contactsMenuYoutube:hover {
+    background: url(../localData/img1920/yuotoobeA.png);
+}
+
+.contactsMenuWhatsup {
+    
+    background: url(../localData/img1920/whatsup.png);
+    width: 32px;
+    height: 32px;
+    border-radius: 47px;
+    border: none;
+
+}
+.contactsMenuWhatsup:hover {
+    background: url(../localData/img1920/whatsupA.png);
+}
+
+.contactsMenuVK {
+    
+    background: url(../localData/img1920/vk.png);
+    width: 32px;
+    height: 32px;
+    border-radius: 47px;
+    border: none;
+
+}
+.contactsMenuVK:hover {
+    background: url(../localData/img1920/vkA.png);
 }
