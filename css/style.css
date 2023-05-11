@@ -78,18 +78,11 @@ h2 {
 
 .standartBtn:hover {
     background: linear-gradient(180deg, #9BCFFF 0%, #FFE456 0.01%, #FFB800 100%);
-    box-shadow: 0px 4px 0px #C89C00;
-    border-radius: 5px;
-    border: none;
 }
 
 .standartBtn:active {
-    background: linear-gradient(180deg, #9BCFFF 0%, #FFE456 0.01%, #FFB800 100%);
-    box-shadow: 0px 4px 0px #C89C00;
-    border-radius: 5px;
-    /* Что с этим делать? Переворачивает текст. */
-    transform: matrix(1, 0, 0, -1, 0, 0);
-    border: none;
+    background: linear-gradient(0deg, #9BCFFF 0%, #FFE456 0.01%, #FFB800 100%);
+    box-shadow: 0px -4px 0px #C89C00;
 }
 
 
