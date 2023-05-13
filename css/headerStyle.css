@@ -1,49 +1,70 @@
 header {
 
     background-image: url(../localData/img1920/background1.jpg);
-    height: 948px;
+    min-height: 948px;
 
-    width: 100wv;
-    max-width: 1920px;
-    overflow: visible;
-    margin: 0 auto;
-    /* background: blue; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
-/* Логотип ++ */
-.headMenu {
 
-    /* background: white; */
-    margin-left: 376px;
-    height: 69px;
-    
-}
 
-.header-Logo {
-
-    position: absolute;
-    width: 152px;
-    height: 49px;
-    top: 9px;
-
-}
-/* Логотип -- */
 
 /* Меню ++ */
+.headMenu {
+
+    background: white;
+    height: 60px;
+    max-width: 1170px;
+    
+    display: flex;
+    padding-top: 9px;
+
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+/* -Логотип ++ */
+.header-Logo {
+
+    width: 152px;
+    height: 49px;
+
+}
+/* -Логотип -- */
+
+
+
 header nav {
-    position: absolute;
+    /* position: absolute;
     width: 428px;
     height: 25px;
     margin-left: 499px;
-    margin-top: 28px;
+    margin-top: 28px; */
 }
 
  .mainMenu {
 
-    /* background: white; */
 
-    font-family: 'Roboto';
+
+    /* background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+    padding-top: 9px;
+
+    max-width: 1170px;
+
+    margin: 0 auto; */
+
+
+
+    /* font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -55,7 +76,7 @@ header nav {
     display: flex;
 
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
 
 }
 
@@ -74,23 +95,22 @@ header nav {
 
 
 /* Телефон ++ */
-.telephoneHeadImg {
-
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    margin-left: 984px;
-    margin-top: 29px;
-
-}
-
 .telephoneHead {
 
-    position: absolute;
-    width: 160px;
+    background: blue;
+    display:block;
+
+    padding-left:26px;
+    margin-top: 15px;
+
+    width: 186px;
     height: 44px;
-    margin-left: 1010px;
-    top: 25px;
+
+    background-image:url('../localData/img1920/tel.svg');
+    background-repeat:no-repeat;
+    background-size:16px 16px;
+    background-position:left 4px;
+
 }
 
 .telephoneHead a {
@@ -113,7 +133,9 @@ header nav {
     font-weight: 400;
     font-size: 13px;
     line-height: 15px;
+
     margin-top: 8px;
+
     color: #7D808A;
 
 }
@@ -165,7 +187,7 @@ header nav {
     margin-bottom: 27px;
 }
 
-.recordBtn {
+.recordBtnSize {
     width: 270px;
     height: 70px;
     left: 0px;
@@ -218,5 +240,169 @@ header nav {
     /* left: 0px; */
     top: 688px;
 }
-
 /* Бантики -- */
+
+
+@media (max-width: 1000px) {
+    header {
+
+        background-image: url(../localData/img1000/background1.png);
+        min-height: 611px;
+        background-size: cover;
+
+    }
+    .headMenu {
+
+        max-width: 960px;
+        padding-top: 21px;
+        
+    }
+    .telephoneHead {
+
+        width: 184px;
+        height: 44px;
+    }
+
+    .header-Logo {
+
+        width: 152px;
+        height: 49px;
+    
+    }
+
+}
+@media (max-width: 768px) {
+    header {
+    
+        background-image: url(../localData/img768/background1.png);
+        min-height: 539px;
+        background-size: cover;
+    
+    }
+
+    .headMenu {
+
+        max-width: 630px;
+        padding-top: 10px;
+        height: 60px;
+    }
+
+    .header-Logo {
+
+        width: 120px;
+        height: 39px;
+    
+    }
+
+    .telephoneHead {
+
+        padding-left:18px;
+        background-size:13px 13px;
+        width: 142px;
+        height: 36px;
+    }
+
+    .telephoneHead a {
+
+        font-size: 14px;
+        line-height: 16px;
+    
+    }
+    
+    .telephoneHead p {
+    
+        font-size: 11px;
+        line-height: 13px;
+        margin-top: 7px;
+    
+    }
+
+
+}
+@media (max-width: 480px) {
+    header {
+        
+        background-image: url(../localData/img480/background1.png);
+        min-height: 564px;
+        background-size: cover;
+
+    }
+
+    .headMenu {
+
+        max-width: 460px;
+        padding-top: 15px;
+        height: 29px;
+    }
+
+    .header-Logo {
+
+        width: 89px;
+        height: 29px;
+        /* margin-top: 0px; */
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .telephoneHead {
+
+        padding-left:12px;
+        background-size:10px 10px;
+
+        width: 110px;
+        height: 29px;
+        margin-top: -1px;
+    
+    }
+    .telephoneHead a {
+
+        font-size: 11px;
+        line-height: 13px;
+    
+    }
+    
+    .telephoneHead p {
+    
+        font-size: 9px;
+        line-height: 11px;
+
+        margin-top: 5px;
+    
+    }
+}
+
+@media (max-width: 320px) {
+    header {
+        
+        background-image: url(../localData/img320/background1.png);
+        /* min-height: 559px; */
+        min-width: 320px;
+        background-size: cover;
+
+    }
+    .headMenu {
+
+        max-width: 300px;
+
+        padding-top: 15px;
+        height: 29px;
+    }
+
+    .header-Logo {
+
+        width: 89px;
+        height: 29px;
+    
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .telephoneHead {
+        display: none;
+    }
+
+}
