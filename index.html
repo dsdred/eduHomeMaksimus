@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sidorenko Dmitry aka dsdred">
+    <meta name="description" content="Максимус - конный клуб">
     <title>Maksimus</title>
     <link rel="icon" href="./localData/horseIco.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/headerStyle.css">
-    
+    <link rel="stylesheet" href="css/hamburger.css">
 
     <link rel="stylesheet" href="css/contactsStyle.css">
     <link rel="stylesheet" href="css/footerStyle.css">
@@ -20,39 +22,51 @@
             <img src="./localData/img1920/Logo1.png" alt="Логотип" title="Максимус" class="header-Logo">
             <nav>
                 <ul class="mainMenu">
-                    <li><a href="#aboutUs" class="active_section">О нас</a></li>
+                    <li><a href="#aboutUs">О нас</a></li>
                     <li><a href="#servicesAndPrices">Услуги и цены</a></li>
                     <li><a href="#photoAlbum">Фотоальбом</a></li>
                     <li><a href="#contacts">Контакты</a></li>
                 </ul>
             </nav> 
-            <img src="./localData/img1920/tel.svg" alt="Телефон" class="telephoneHeadImg">
+
+            <button class="hamburger-menu">
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="#aboutUs">О нас</a></li>
+                    <li><a class="menu__item" href="#servicesAndPrices">Услуги и цены</a></li>
+                    <li><a class="menu__item" href="#photoAlbum">Фотоальбом</a></li>
+                    <li><a class="menu__item" href="#contacts">Контакты</a></li>
+                </ul>
+                <span>Меню</span> 
+            </button> 
+
             <div class="telephoneHead">
                 <a href="#telephone" >+7 (000) 000-00-00</a>
                 <p>Ежедневно 9:00 - 22:00</p>
             </div>
+
         </div>
 
-        <section class="titleAndButton">
+        <!-- <section class="titleAndButton">
             <h1>Окунитесь в мир<br>лошадей вместе с нами</h1>
             <hr>
             <p>Уроки верховой езды, фотосессии и мероприятия<br>в частном конном клубе <strong>г. Санкт-Петербург</strong></p>
-            <button class="standartBtn standartTextBtn recordBtn">Записаться</button>
+            <button class="standartBtn standartTextBtn recordBtnSize">Записаться</button>
         </section>
 
-        <img src="./localData/img1920/bigHorse1.svg" alt="Лошадь" title="Лошадь" class="bigHorse">
+        <img src="./localData/img1920/bigHorse1.svg" alt="Лошадь" title="Лошадь" class="bigHorse"> -->
         <!-- /* fix */ -->
-        <img src="./localData/img1920/Heavens.svg" alt="Облака" title="Облака" class="Heavens">
+        <!-- <img src="./localData/img1920/Heavens.svg" alt="Облака" title="Облака" class="Heavens">
 
         <img src="./localData/img1920/leftBush.png" alt="Куст слева" title="Куст слева" class="leftBush">
         <img src="./localData/img1920/rightBush.png" alt="Куст справа" title="Куст справа" class="rightBush">
-        <img src="./localData/img1920/Seagulls1.png" alt="Чайки" title="Чайки" class="Seagulls">
-        
-        
+        <img src="./localData/img1920/Seagulls1.png" alt="Чайки" title="Чайки" class="Seagulls"> -->
     </header>
     
 <!-- aboutUs -->
-    <section id="aboutUs">
+    <!-- <section id="aboutUs">
         <h2>О нашем клубе</h2>
         <div class="aboutUs_container">
             <picture>
@@ -84,10 +98,10 @@
                 и добрых пони.
             </p>
         </div>
-    </section>
+    </section> -->
 
 <!-- servicesAndPrices -->
-    <section id="servicesAndPrices">
+    <!-- <section id="servicesAndPrices">
         <h2>Почему нас выбирают</h2>
 
         <div class="servicesAndPrices_container">
@@ -124,10 +138,10 @@
                 </p>
             </div>
         </div>
-    </section>
+    </section> -->
 
  <!-- photoAlbum -->   
-    <section id="photoAlbum">
+    <!-- <section id="photoAlbum">
         <h2>Направления клуба</h2>
         <div>
             <img src="" alt="Уроки верховой езды" title="Уроки верховой езды">
@@ -182,10 +196,10 @@
             </p>
         </div>
         <button class="standartBtn standartTextBtn">Записаться</button>
-    </section>
+    </section> -->
 
 <!-- visitors -->   
-    <section id="visitors">
+    <!-- <section id="visitors">
         <h2>Наши посетители</h2>
         <div class="visitors_container">
             <img src="" alt="">
@@ -207,10 +221,10 @@
             <img src="./localData/navigation/Inactive.png" alt="">
             <button class="standartNavigationRightBtn"></button>
         </div>
-    </section>
+    </section> -->
 
 <!-- OurHourse -->
-    <section>
+    <!-- <section>
         <h2>Наши лошади</h2>
         <div>
             <img src="" alt="Жазель" title="Жазель">
@@ -255,10 +269,10 @@
             <img src="./localData/navigation/Inactive.png" alt="">
             <button class="standartNavigationRightBtn"></button>
         </div>
-    </section>
+    </section> -->
 
 <!-- feedback -->
-    <section>
+    <!-- <section>
         <form id="feedback">
             <fieldset>
                 <legend>Отвечаем на вопросы</legend>
@@ -284,10 +298,10 @@
                 </div>
             </fieldset>
         </form>
-    </section>
+    </section> -->
 
 <!-- customersSay -->
-    <section>
+    <!-- <section>
         <h2>О нас говорят клиенты</h2>
         <article>
             <div>
@@ -345,12 +359,10 @@
         
         <div class="dot_navigation">
             <button class="standartNavigationLeftBtn"></button>
-            <!-- <div> -->
                 <img src="./localData/navigation/Inactive.png" alt="">
                 <img src="./localData/navigation/Inactive.png" alt="">
                 <img src="./localData/navigation/Active.png" alt="" class="active_navigation">
                 <img src="./localData/navigation/Inactive.png" alt="">
-            <!-- </div> -->
             <button class="standartNavigationRightBtn"></button>
         </div>
     </section>
@@ -379,11 +391,11 @@
             </div>
             
         </div>
-    </section>
+    </section> -->
 
 
 <!-- footerMenu -->
-    <footer>
+    <!-- <footer>
         <div class="footerMenu">
             <img src="./localData/img1920/Logo2.png" alt="Логотип" title="Логотип" class="footer-Logo">
             <div class="footerMainMenu">
@@ -399,7 +411,7 @@
                 <button class="privacyBtn">Политика конфенденциальности</button>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
 </body>
 </html>
