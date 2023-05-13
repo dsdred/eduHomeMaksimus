@@ -10,21 +10,15 @@ header {
 }
 
 
-
-
 /* Меню ++ */
 .headMenu {
 
-    background: white;
+    background: #8F8F8F;
     height: 60px;
     max-width: 1170px;
     
     display: flex;
-    padding-top: 9px;
-
-    /* align-items: center; */
-    justify-content: space-between;
-    margin: 0 auto;
+    margin: 0 auto; 
 
 }
 
@@ -33,50 +27,27 @@ header {
 
     width: 152px;
     height: 49px;
+    margin-top: 9px;
 
 }
 /* -Логотип -- */
 
-
-
 header nav {
-    /* position: absolute;
+
     width: 428px;
     height: 25px;
-    margin-left: 499px;
-    margin-top: 28px; */
+
+    display: flex;
+    margin: 28px 57px 0 auto;
+
 }
 
  .mainMenu {
 
-
-
-    /* background: white;
+    width: 428px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 60px;
-    padding-top: 9px;
-
-    max-width: 1170px;
-
-    margin: 0 auto; */
-
-
-
-    /* font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-
-    color: #202020;
-
-    list-style-type: none;
-    display: flex;
-
-    justify-content: space-between;
-    align-items: center; */
 
 }
 
@@ -85,7 +56,16 @@ header nav {
 }
 
 .mainMenu a {
-    text-decoration: none; 
+
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #202020;
+
 } 
 
 .mainMenu a:hover {
@@ -97,11 +77,8 @@ header nav {
 /* Телефон ++ */
 .telephoneHead {
 
-    background: blue;
-    display:block;
-
     padding-left:26px;
-    margin-top: 15px;
+    margin-top: 25px;
 
     width: 186px;
     height: 44px;
@@ -244,6 +221,7 @@ header nav {
 
 
 @media (max-width: 1000px) {
+    
     header {
 
         background-image: url(../localData/img1000/background1.png);
@@ -251,16 +229,11 @@ header nav {
         background-size: cover;
 
     }
+
     .headMenu {
 
         max-width: 960px;
-        padding-top: 21px;
-        
-    }
-    .telephoneHead {
 
-        width: 184px;
-        height: 44px;
     }
 
     .header-Logo {
@@ -269,6 +242,19 @@ header nav {
         height: 49px;
     
     }
+
+    header nav {
+
+        margin: 28px auto 0 auto;
+
+    }
+
+    .telephoneHead {
+
+        width: 186px;
+        height: 44px;
+    }
+    
 
 }
 @media (max-width: 768px) {
@@ -282,17 +268,34 @@ header nav {
 
     .headMenu {
 
-        max-width: 630px;
-        padding-top: 10px;
+        max-width: 728px;
         height: 60px;
+
     }
 
     .header-Logo {
 
         width: 120px;
         height: 39px;
-    
+        margin-top: 10px;
     }
+
+    header nav {
+
+        width: 262px;
+        height: 13px;
+        
+        display: flex;
+        margin: 29px auto 0 auto;
+
+    }
+
+    .mainMenu a {
+
+        font-size: 11px;
+        line-height: 13px;
+        
+    } 
 
     .telephoneHead {
 
@@ -319,31 +322,13 @@ header nav {
 
 
 }
-@media (max-width: 480px) {
-    header {
-        
-        background-image: url(../localData/img480/background1.png);
-        min-height: 564px;
-        background-size: cover;
 
-    }
-
-    .headMenu {
-
-        max-width: 460px;
-        padding-top: 15px;
-        height: 29px;
-    }
-
+@media (max-width: 520px) {
     .header-Logo {
 
         width: 89px;
         height: 29px;
-        /* margin-top: 0px; */
-    }
-
-    header nav {
-        display: none;
+        margin-top: 15px;
     }
 
     .telephoneHead {
@@ -353,7 +338,59 @@ header nav {
 
         width: 110px;
         height: 29px;
-        margin-top: -1px;
+        margin-top: 15px;
+    
+    }
+    .telephoneHead a {
+
+        font-size: 11px;
+        line-height: 13px;
+    
+    }
+    
+    .telephoneHead p {
+    
+        font-size: 9px;
+        line-height: 11px;
+
+        margin-top: 5px;
+    
+    }
+}
+
+@media (max-width: 480px) {
+
+    .mainMenu {
+        display: none;
+    }
+    header nav {
+        display: none;
+    }
+
+    header {
+        
+        background-image: url(../localData/img480/background1.png);
+        min-height: 564px;
+        background-size: cover;
+    }
+
+     .header-Logo {
+
+        width: 89px;
+        height: 29px;
+
+    } 
+
+
+    .telephoneHead {
+
+        padding-left:12px;
+        background-size:10px 10px;
+
+        width: 110px;
+        height: 29px;
+
+        margin: 15px 0px auto 10px;
     
     }
     .telephoneHead a {
@@ -377,24 +414,14 @@ header nav {
     header {
         
         background-image: url(../localData/img320/background1.png);
-        /* min-height: 559px; */
         min-width: 320px;
         background-size: cover;
-
     }
-    .headMenu {
-
-        max-width: 300px;
-
-        padding-top: 15px;
-        height: 29px;
-    }
-
     .header-Logo {
 
         width: 89px;
         height: 29px;
-    
+        margin: 15px auto auto 10px;
     }
 
     header nav {
