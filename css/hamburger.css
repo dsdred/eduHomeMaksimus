@@ -1,115 +1,76 @@
 .hamburger-menu {
+    
     display: none;
 
-    box-sizing: border-box;
-    border: 1px solid #008139;
-    border-radius: 3px;
     width: 77px;
     height: 29px;
 
-    margin: 15px auto auto 13px; 
+    border: 1px solid #008139;
+    border-radius: 3px;
+
+    justify-content: space-between;
+    align-items: center; 
+
+    margin: 15px auto auto 113px;
 }
 
+
 .hamburger-menu p {
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 15px;
-
     color: #202020;
-    margin: 8px 10px 8px 25px;
-    z-index: 1;
+
+    margin-right: 10px;
+
+    /* z-index: 1; */
+
 }
 
 
 
-/* стилизуем кнопку */
 .menu__btn {
-    display: flex;
-    align-items: center;
-    position: fixed;
 
     width: 10px;
     height: 10px;
-  
-    margin: 9px 57px 14px 9px; 
 
     cursor: pointer;
-    z-index: 11;
+    z-index: 1;
+    margin-left: -20px;
+    margin-top: 6px;
 
 }
 
-/* скрываем чекбокс */
-#menu__toggle {
-    opacity: 0;
-}
-  
-#menu__toggle:checked ~ .menu__btn > span {
-    transform: rotate(45deg);
-}
-#menu__toggle:checked ~ .menu__btn > span::before {
-    top: 0;
-    transform: rotate(0);
-}
-#menu__toggle:checked ~ .menu__btn > span::after {
-    top: 0;
-    transform: rotate(90deg);
-}
-#menu__toggle:checked ~ .menu__box {
-    visibility: visible;
-    left: 0;
-}
-  
- /* добавляем "гамбургер" */ 
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
-    
-    display: block;
-    position: absolute;
-  
-    width: 10px;
-    height: 2px;
-  
-    background-color: #008139;
-  
-    transition-duration: .25s;
-}
-.menu__btn > span::before {
-    content: '';
-    top: -4px;
-}
-.menu__btn > span::after {
-    content: '';
-    top: 4px;
-}
-  
 .menu__box {
+
     display: block;
     position: fixed;
     visibility: hidden;
-    top: 0px;
-    left: 0px;
-  
-    width: 100%;
+    top: 0;
+    left: -100%;
+
+    width: 50%;
     height: 100%;
-  
+
     margin: 0;
-    padding: 80px 0;
-  
+    padding: 50px 0;
+
     list-style: none;
-  
+
     background-color: #0D0D0D;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-  
+    box-shadow: 1px 0px 6px #008139;
+
     transition-duration: .25s;
 }
-  
+
 .menu__item {
+    
     display: block;
-    padding: 12px 55px;
-  
+    padding: 12px 24px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -121,13 +82,83 @@
     text-transform: uppercase;
 
     color: #FFFFFF;
-  
+
     text-decoration: none;
-  
     transition-duration: .25s;
 }
+
 .menu__item:hover {
     background-color: #CFD8DC;
+    /* border-bottom: 1px solid #CFD8DC; */
+}
+
+
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked~.menu__btn>span {
+    /* top: 0px;
+    left: 0px; */
+    transform: rotate(45deg);
+
+    background-color: #FFFFFF;
+    width: 17px;
+    height: 1px;
+
+    left: 45%;
+
+}
+
+#menu__toggle:checked~.menu__btn>span::before {
+    top: 0px;
+    transform: rotate(0);
+
+    background-color: #FFFFFF;
+    width: 17px;
+    height: 1px;
+}
+
+#menu__toggle:checked~.menu__btn>span::after {
+    
+    top: 0px;
+    transform: rotate(90deg);
+
+    background-color: #FFFFFF;
+    width: 17px;
+    height: 1px;
+
+}
+
+#menu__toggle:checked~.menu__box {
+    visibility: visible;
+    left: 0px;
+}
+
+ /* добавляем "гамбургер" */ 
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+    display: block;
+    position: absolute;
+
+    width: 10px;
+    height: 2px;
+
+    background-color: #008139;
+
+    transition-duration: .25s;
+    /* margin-left: -15px; */
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -4px;
+}
+
+.menu__btn>span::after {
+    content: '';
+    top: 4px;
 }
 
 
@@ -139,10 +170,32 @@
     
 }
 
+@media (max-width: 400px) {
+    
+    .hamburger-menu{
+        display: flex;
+        margin: 15px 10px auto auto; 
+    }
+    .menu__box {
+        width: 75%;
+    } 
+    #menu__toggle:checked~.menu__btn>span {
+        left: 70%;
+    
+    }
+}
+
 @media (max-width: 320px) {
     
     .hamburger-menu{
         display: flex;
         margin: 15px 10px auto auto; 
+    }
+    .menu__box {
+        width: 99%;
     } 
+
+    #menu__toggle:checked~.menu__btn>span {
+        left: 90%;
+    }
 }
