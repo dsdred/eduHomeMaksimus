@@ -196,6 +196,6 @@
     } 
 
     #menu__toggle:checked~.menu__btn>span {
-        left: 90%;
+        left: 5px;
     }
 }
