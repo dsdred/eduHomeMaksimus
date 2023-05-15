@@ -121,20 +121,38 @@ header nav {
 /* Заголовок и кнопка ++ */
 .titleAndButton {
     
-    position: absolute;
-    margin-top: 88px;
-    margin-left: 376px;
+    /* background: #8F8F8F; */
+
+    max-width: 1170px;
+    
+    display: block;
+    margin: 88px auto; 
 
 }
 
-.titleAndButton p {
+.title_container {
 
+    width: 533px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 40px;
+    
+    /* background: #8F8F8F; */
+    
+}
+
+.title_container p {
+    /* background: #8F8F8F; */
     font-family: 'AlegreyaSans';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 140%;
 
+    margin-left: 20px;
 
     color: #646464;
 
@@ -142,12 +160,14 @@ header nav {
     order: 2;
     flex-grow: 0;
 
+
 }
-.titleAndButton strong {
+.title_container strong {
     color: #646464;
 }
 
-.titleAndButton hr {
+.titleBoarder {
+
     width: 26px;
     height: 1px;
 
@@ -160,17 +180,14 @@ header nav {
     order: 1;
     flex-grow: 0;
 
-    margin-top: 27px;
-    margin-bottom: 27px;
+    margin-top: -30px;
+
 }
 
 .recordBtnSize {
     width: 270px;
     height: 70px;
-    left: 0px;
-    top: 272px;
-
-    margin-top: 27px;
+    margin-top: 42px;
 }
 /* Заголовок и кнопка -- */
 
