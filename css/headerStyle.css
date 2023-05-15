@@ -118,11 +118,10 @@ header nav {
 }
 /* Телефон -- */
 
+
 /* Заголовок и кнопка ++ */
 .titleAndButton {
     
-    /* background: #8F8F8F; */
-
     max-width: 1170px;
     
     display: block;
@@ -135,17 +134,16 @@ header nav {
     width: 533px;
     height: 68px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+    /* align-items: center;
+    justify-content: space-between; */
 
     margin-top: 40px;
-    
-    /* background: #8F8F8F; */
     
 }
 
 .title_container p {
-    /* background: #8F8F8F; */
+
     font-family: 'AlegreyaSans';
     font-style: normal;
     font-weight: 400;
@@ -160,27 +158,29 @@ header nav {
     order: 2;
     flex-grow: 0;
 
-
 }
+
 .title_container strong {
     color: #646464;
 }
 
 .titleBoarder {
-
+ 
     width: 26px;
     height: 1px;
 
     border: none;
-    color: #8F8F8F;
+    
+    /* color: #8F8F8F; */
     background: #8F8F8F;
-    background-color: #8F8F8F;
+    /* background-color: #8F8F8F; */
 
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+   flex: none;
+    /* order: 1; */
+    /* flex-grow: 0; */
 
-    margin-top: -30px;
+    margin-top: 16px;
+
 
 }
 
@@ -190,6 +190,9 @@ header nav {
     margin-top: 42px;
 }
 /* Заголовок и кнопка -- */
+
+
+
 
 /* Бантики ++ */
 .leftBush {
@@ -271,8 +274,35 @@ header nav {
         width: 186px;
         height: 44px;
     }
-    
 
+
+    .titleAndButton {
+
+        max-width: 960px;
+        margin: 51px auto; 
+    
+    }
+
+    .title_container {
+
+        width: 433px;
+        height: 56px;
+    
+        margin-top: 30px;
+        
+    }
+
+    .title_container p {
+
+        font-size: 20px;
+    
+    }
+
+    .recordBtnSize {
+        width: 218px;
+        height: 60px;
+        margin-top: 37px;
+    }
 }
 @media (max-width: 768px) {
     header {
@@ -337,6 +367,34 @@ header nav {
     
     }
 
+    .titleAndButton {
+
+        max-width: 728px;
+        margin: 41px auto; 
+    
+    }
+
+    .title_container {
+
+        width: 422px;
+        height: 44px;
+    
+        margin-top: 20px;
+        
+    }
+
+    .title_container p {
+
+        font-size: 16px;
+        margin-left: 10px;
+
+    }
+
+    .recordBtnSize {
+        width: 180px;
+        height: 45px;
+        margin-top: 20px;
+    }
 
 }
 
@@ -373,6 +431,9 @@ header nav {
         margin-top: 5px;
     
     }
+
+
+
 }
 
 @media (max-width: 480px) {
@@ -425,6 +486,31 @@ header nav {
         margin-top: 5px;
     
     }
+
+    .titleAndButton {
+
+        max-width: 480px;
+        max-height: 209;
+        margin: 106px auto; 
+    
+    }
+
+    .title_container {
+
+        width: 397px;
+        height: 55px;
+
+        margin-top: 15px;
+        
+    }
+
+    .titleBoarder {
+ 
+        width: 15px;
+        height: 1px;
+
+    }
+
 }
 
 @media (max-width: 320px) {
