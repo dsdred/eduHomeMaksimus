@@ -490,30 +490,60 @@ header nav {
     }
 
     .titleAndButton {
-
+background: #9ea0c4;
         max-width: 480px;
         max-height: 209;
-        margin: 106px auto; 
+        /* margin: 106px 0 0 0px;  */
     
-    }
-
-    .title_container {
-
-        width: 397px;
-        height: 55px;
-
-        margin-top: 15px;
+        display: block;
         
     }
 
+    .title_container {
+background: aquamarine;
+        min-width: 320px;
+        max-width: 397px;
+        height: 44px;
+        display: block;
+
+        
+        margin-top: 15px auto auto auto;
+        text-align: center;
+    }
+    .title_container p {
+
+        margin-left: 0px;
+        font-size: 16px;
+
+    }
+
     .titleBoarder {
- 
+ display: none;
         width: 15px;
         height: 1px;
 
     }
 
 }
+@media (max-width: 400px) {
+
+    .title_container {
+        min-width: 200px;
+        max-width: 320px;
+        height: 44px;
+        display: block;
+                
+        margin-top: 0px auto;
+        text-align: center;
+        }
+    .title_container p {
+
+        margin-left: 0px;
+        font-size: 13px;
+
+    }
+}
+
 
 @media (max-width: 320px) {
     header {
