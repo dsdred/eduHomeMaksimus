@@ -10,7 +10,6 @@ header {
     background-repeat: no-repeat;
     margin: 0 auto; 
 
-    /* background: #646464; */
 
 }
 
@@ -196,9 +195,6 @@ header nav {
 }
 /* Заголовок и кнопка -- */
 
-
-
-
 /* Бантики ++ */
 .leftBush {
 
@@ -212,6 +208,7 @@ header nav {
     position: absolute;
     width: 167px;
     height: 632px;
+    /* right: 0%; */
     margin-left: 1753px;
     top: 241px;
 }
@@ -219,27 +216,39 @@ header nav {
 .bigHorse {
 
     position: absolute;
+    /* width: 557px;
+    height: 671px;
+    
+    bottom: 300px; */
+
+    left: 45%;
     width: 557px;
     height: 671px;
-    left: 50%;
-    bottom: 300px;
+    top: 181px;
+
+
     /* background: #008139; */
 }
-
-
-
 
 .Seagulls {
     position: absolute;
     width: 272px;
     height: 86px;
     top: 157px;
-    margin-left: 1409px;
+    margin-left: 1410px;
 }
-
-
 /* Бантики -- */
 
+@media (max-width: 1920px) {
+    .Seagulls {
+        right: 239px;
+        margin-left: 0;
+    }
+    .rightBush {
+        right: 0%;
+        margin: 0;
+    }
+}
 
 @media (max-width: 1000px) {
     
@@ -304,6 +313,38 @@ header nav {
         height: 60px;
         margin-top: 37px;
     }
+
+    .Seagulls {
+        width: 165px;
+        height: 52px;
+        right: 63px;
+        top: 119px;
+    }
+
+    .bigHorse{
+
+        left: 40%;
+        width: 365px;
+        height: 437px;
+        top: 188px;
+
+    }
+    .leftBush {
+
+        position: absolute;
+        width: 61px;
+        height: 229px;
+        /* right: 0; */
+        top: 402px;
+    
+    }
+    .rightBush {
+        position: absolute;
+        width: 61px;
+        height: 229px;
+        right: 0;
+        top: 402px;
+    }
 }
 @media (max-width: 768px) {
     header {
@@ -312,6 +353,7 @@ header nav {
         min-height: 539px;
         background-size: cover;
     
+
     }
 
     .headMenu {
@@ -397,6 +439,35 @@ header nav {
         margin-top: 20px;
     }
 
+    .Seagulls {
+        width: 126px;
+        height: 40px;
+        right: 42px;
+        top: 95px;
+    }
+
+    .bigHorse{
+        width: 368px;
+        height: 371px;
+        left: 38%;
+        top: 105px;
+    }
+    .leftBush {
+
+        position: absolute;
+        width: 68px;
+        height: 141px;
+        left: -12px;
+        top: 359px;
+    
+    }
+    .rightBush {
+        position: absolute;
+        width: 42px;
+        height: 160px;
+        right: 0;
+        top: 340px;
+    }
 }
 
 @media (max-width: 520px) {
@@ -451,6 +522,8 @@ header nav {
         background-image: url(../localData/img480/background1.png);
         min-height: 564px;
         background-size: cover;
+
+        /* background: #646464; */
     }
 
      .header-Logo {
@@ -493,7 +566,7 @@ header nav {
         max-width: 480px;
         max-height: 209;
         /* margin: 106px 0 0 0px;  */
-    
+        
         display: block;
         
     }
@@ -505,24 +578,54 @@ header nav {
         height: 44px;
         display: block;
 
-        
-        margin-top: 15px auto auto auto;
+        margin: 0;
+        /* margin: 29px auto auto auto; */
         text-align: center;
     }
     .title_container p {
 
         margin-left: 0px;
         font-size: 16px;
-
+        /* margin-top: 150px; */
     }
 
     .titleBoarder {
- display: none;
+display: none;
         width: 15px;
         height: 1px;
 
     }
 
+    .Seagulls {
+        width: 101px;
+        height: 32px;
+        left: 119px;
+        top: 88px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .bigHorse{
+        width: 189px;
+        height: 190px;
+        left: 45%;
+        top: 364px;
+    }
+    .leftBush {
+
+        position: absolute;
+        width: 44px;
+        height: 93px;
+        left: 0px;
+        top: 470px;
+    
+    }
+    .rightBush {
+        position: absolute;
+        width: 34px;
+        height: 131px;
+        right: 0;
+        top: 429px;
+    }
 }
 @media (max-width: 400px) {
 
@@ -540,6 +643,11 @@ header nav {
         margin-left: 0px;
         font-size: 13px;
 
+    }
+    .bigHorse{
+        width: 187px;
+        height: 188px;
+        top: 354px;
     }
 }
 
@@ -566,4 +674,20 @@ header nav {
         display: none;
     }
 
+    .leftBush {
+
+        position: absolute;
+        width: 44px;
+        height: 93px;
+        left: 0px;
+        top: 457px;
+    
+    }
+    .rightBush {
+        position: absolute;
+        width: 34px;
+        height: 131px;
+        right: 0;
+        top: 420px;
+    }
 }

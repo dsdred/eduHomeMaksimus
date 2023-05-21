@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: "AlegreyaSans";
-    src: url(../fonts/AlegreyaSans-Regular);
+    src: url(../fonts/AlegreyaSans-Regular.ttf);
 }
 
 * {
@@ -166,7 +166,7 @@ h2 {
 
         font-size: 33px;
         text-align: center;
-
+        margin-top: 90px;
     }
 
 }
