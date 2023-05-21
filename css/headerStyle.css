@@ -9,6 +9,9 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto; 
+
+    /* background: #646464; */
+
 }
 
 
@@ -218,10 +221,13 @@ header nav {
     position: absolute;
     width: 557px;
     height: 671px;
-    top: 181px;
-    margin-left: 973px;
-
+    left: 50%;
+    bottom: 300px;
+    /* background: #008139; */
 }
+
+
+
 
 .Seagulls {
     position: absolute;
@@ -231,14 +237,7 @@ header nav {
     margin-left: 1409px;
 }
 
-/* fix */
-.Heavens {
-    position: absolute;
-    width: 1920px;
-    height: 170px;
-    /* left: 0px; */
-    top: 688px;
-}
+
 /* Бантики -- */
 
 
@@ -490,7 +489,7 @@ header nav {
     }
 
     .titleAndButton {
-background: #9ea0c4;
+/* background: #9ea0c4; */
         max-width: 480px;
         max-height: 209;
         /* margin: 106px 0 0 0px;  */
@@ -500,7 +499,7 @@ background: #9ea0c4;
     }
 
     .title_container {
-background: aquamarine;
+/* background: aquamarine; */
         min-width: 320px;
         max-width: 397px;
         height: 44px;
