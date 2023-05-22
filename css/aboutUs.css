@@ -7,24 +7,40 @@
 
 .jumpHorse {
 
-    position: absolute;
+    /* position: absolute; */
     width: 871px;
     height: 529px;
-    left: 145px;
-    top: 1073px;
+    margin-left: 145px;
+    margin-top: 89px;
     
 
 }
 
 .aboutUs_container{
 
-    position: absolute;
+    /* position: absolute; */
     width: 570px;
     height: 548px;
-    left: 1013px;
+    margin-left: 1013px;
     margin-top: 106px;
 
+    /* display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr) 2fr;
+    column-gap: 30px; */
+
 }
+
+.aboutUs_complektContainer{
+    width: 266px;
+    height: 117px;
+
+    flex-direction: column;
+
+
+    background: #7E7E7E;
+}
+
 
 
 

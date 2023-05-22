@@ -142,6 +142,13 @@ h2 {
 
     }
 
+    h2 {
+
+        font-size: 36px;
+        line-height: 36px;
+        
+    }
+
     .standartTextBtn{
         font-size: 13px;
     }
@@ -153,6 +160,12 @@ h2 {
 
         font-size: 37px;
 
+    }
+
+    h2 {
+
+        font-size: 27px;
+        line-height: 27px;
     }
 
     .standartTextBtn{
@@ -168,7 +181,13 @@ h2 {
         text-align: center;
         margin-top: 90px;
     }
+    
+    h2 {
 
+        font-size: 27px;
+        line-height: 27px;
+
+    }
 }
 
 @media (max-width: 360px) {
@@ -180,4 +199,10 @@ h2 {
 
     }
 
+    h2 {
+
+        font-size: 21px;
+        line-height: 21px;
+
+    }
 }
