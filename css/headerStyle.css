@@ -221,9 +221,10 @@ header nav {
     
     bottom: 300px; */
 
-    left: 45%;
+    position: absolute;
     width: 557px;
     height: 671px;
+    margin-left: 973px;
     top: 181px;
 
 
@@ -244,10 +245,29 @@ header nav {
         right: 239px;
         margin-left: 0;
     }
+
+    .bigHorse{
+
+        right: 390px;
+        margin-left: 0;
+
+    }
+
     .rightBush {
         right: 0%;
         margin: 0;
     }
+}
+
+@media (max-width: 1600px) {
+    
+    .bigHorse{
+
+        right: 11%;
+        margin-left: 0;
+
+    }
+
 }
 
 @media (max-width: 1000px) {
@@ -469,6 +489,14 @@ header nav {
         top: 340px;
     }
 }
+
+@media (max-width: 600px) {
+    .bigHorse{
+
+        left: 30%;
+        top: 105px;
+    }
+}    
 
 @media (max-width: 520px) {
     .header-Logo {
