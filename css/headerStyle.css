@@ -627,7 +627,7 @@ display: none;
     .Seagulls {
         width: 101px;
         height: 32px;
-        left: 119px;
+        left: 20px;
         top: 88px;
         transform: matrix(-1, 0, 0, 1, 0, 0);
     }
