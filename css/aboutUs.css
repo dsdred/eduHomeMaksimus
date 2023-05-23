@@ -8,10 +8,10 @@
 .jumpHorse {
 
     position: absolute;
-    width: 871px;
-    height: 529px;
+    max-width: 871px;
+    max-height: 529px;
     margin-left: 145px;
-    margin-top: 89px;
+    margin-top: 125px;
     
 
 }
@@ -20,7 +20,7 @@
 
     width: 541px;
     height: 283px;
-    margin-left: 1013px;
+    margin-left: 1014px;
     margin-top: 106px;
 
     display: grid;
@@ -64,8 +64,175 @@
     font-size: 15px;
     line-height: 28px;
     
-    margin-left: 1013px;
+    margin-left: 1014px;
     margin-top: 10px;
 
     color: #7E7E7E;
+
+}
+
+.aboutUs_greyTextNoBr {
+    display: none;
+}
+
+
+@media (max-width: 1920px) {
+    .jumpHorse {
+        right: 900px;
+        margin-left: 1px;
+    }
+
+    .aboutUs_container{
+        margin-left: 930px;
+    }
+
+    .aboutUs_greyText {
+        margin-left: 930px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .jumpHorse {
+        right: auto;
+        margin-left: 0px;
+        max-width: 783px;
+        max-height: 476px;
+    }
+
+    .aboutUs_container{
+        margin-left: 800px;
+    }
+
+    .aboutUs_greenText {
+
+        font-size: 38px;
+
+    }
+
+    .aboutUs_strongText {
+
+        font-size: 16px;
+
+    }
+
+    .aboutUs_greyText {
+        margin-left: 800px;
+    }
+
+   }
+
+@media (max-width: 1400px) {
+    .jumpHorse {
+
+        max-width: 696px;
+        max-height: 423px;
+    }
+
+    .aboutUs_container{
+        margin-left: 660px;
+    }
+
+    .aboutUs_greenText {
+
+        font-size: 36px;
+
+    }
+
+    .aboutUs_strongText {
+
+        font-size: 15px;
+
+    }
+
+    .aboutUs_greyText {
+        margin-left: 660px;
+        font-size: 14px;
+    }
+
+   }
+@media (max-width: 1200px) {
+    .jumpHorse {
+
+        max-width: 609px;
+        max-height: 370px;
+    }
+    .aboutUs_container{
+        margin-left: 590px;
+    }
+    .aboutUs_greyText {
+        margin-left: 590px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .jumpHorse {
+
+        max-width: 522px;
+        max-height: 317px;
+    }
+    .aboutUs_container{
+        margin-left: 510px;
+    }
+    .aboutUs_greyText {
+        margin-left: 510px;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    .aboutUs{
+        margin-top: 89px;
+background: beige;
+    }
+    
+    .aboutUs_container{
+
+        width: 546px;
+        height: 257px;
+        margin-left: 490px;
+        margin-top: 190px;
+    
+        display: grid;
+        grid-template-columns: 1.5fr 2fr;
+        column-gap: 30px;
+    
+    }
+    .jumpHorse {
+        width: 517px;
+        height: 313px;
+
+    }
+
+    .aboutUs_greenText {
+
+        font-size: 32px;
+
+    }
+
+    .aboutUs_strongText {
+
+        font-size: 15px;
+
+    }
+
+
+    .aboutUs_greyText {
+        display: none;
+    }
+
+    .aboutUs_greyTextNoBr {
+        display: block;
+        margin-left: 18px;
+        margin-right: 18px;
+        margin-top: 50px;
+        max-width: calc(100%-36px);
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+
+        color: #7E7E7E;
+    }
 }
