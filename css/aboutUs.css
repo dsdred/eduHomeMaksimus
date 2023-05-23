@@ -2,12 +2,12 @@
     min-height: 948px;
     max-width: 1921px;
     margin: 0 auto; 
-    background: aquamarine;
+    /* background: aquamarine; */
 }
 
 .jumpHorse {
 
-    /* position: absolute; */
+    position: absolute;
     width: 871px;
     height: 529px;
     margin-left: 145px;
@@ -18,32 +18,22 @@
 
 .aboutUs_container{
 
-    /* position: absolute; */
-    width: 570px;
-    height: 548px;
+    width: 541px;
+    height: 283px;
     margin-left: 1013px;
     margin-top: 106px;
 
-    /* display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(2, 1fr) 2fr;
-    column-gap: 30px; */
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    column-gap: 30px;
 
 }
 
 .aboutUs_complektContainer{
-    width: 266px;
-    height: 117px;
-
-    flex-direction: column;
-
-
-    background: #7E7E7E;
+    max-width: 266px;
+    max-height: 142px;
+    /* background: #7E7E7E; */
 }
-
-
-
-
 
 .aboutUs_greenText {
     font-family: 'Philosopher';
@@ -73,8 +63,9 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 28px;
-    /* or 187% */
-
+    
+    margin-left: 1013px;
+    margin-top: 10px;
 
     color: #7E7E7E;
 }
