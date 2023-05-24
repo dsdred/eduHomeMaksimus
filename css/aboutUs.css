@@ -342,16 +342,16 @@
 
 }
 
-@media (max-width: 775px) {
+@media (max-width: 780px) {
     .aboutUs_container{
         margin-left: 10px;
         margin-right: 10px;
         width: auto;
 
         grid-template-columns: 1fr 1fr;
-        /* column-gap: 30px; */
+        column-gap: 20px;
 
-        background: #7E7E7E;
+        /* background: #7E7E7E; */
     }
     .aboutUs_greenText{
         text-align: center;
@@ -369,4 +369,59 @@
     .problem780on {
         display: block;
     }
+}
+
+@media (max-width: 600px) {
+    .aboutUs_container{
+
+        height: 188px;
+  
+    }
+    .aboutUs_greenText {
+
+        font-size: 27px;
+
+    }
+    .aboutUs_strongText {
+
+        font-size: 12px;
+
+    }
+    .aboutUs_greyTextNoBr {
+
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: calc(100%-20px);
+    }
+}
+
+@media (max-width: 400px) {
+    .aboutUs_container{
+
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: calc(100%-20px);
+        height: 361px;
+        grid-template-columns: 1fr;
+
+  
+    }
+    .aboutUs_complektContainer{
+        max-width: 100%;
+        max-height: 142px;
+        
+    }
+
+    .aboutUs_greenText {
+
+        font-size: 27px;
+
+    }
+    .aboutUs_strongText {
+
+        font-size: 12px;
+
+    }
+
 }
