@@ -27,7 +27,7 @@
     margin-top: 106px;
 
     display: grid;
-    grid-template-columns: 1.5fr 2fr;
+    grid-template-columns: 1.5fr 2.2fr;
     column-gap: 30px;
 
 }
@@ -78,6 +78,9 @@
     display: none;
 }
 
+.problem780on {
+    display: none;
+}
 
 @media (max-width: 1920px) {
     .jumpHorse {
@@ -342,13 +345,28 @@
 @media (max-width: 775px) {
     .aboutUs_container{
         margin-left: 10px;
-        max-width: calc(100%-20px);
+        margin-right: 10px;
+        width: auto;
+
+        grid-template-columns: 1fr 1fr;
+        /* column-gap: 30px; */
+
+        background: #7E7E7E;
     }
     .aboutUs_greenText{
+        text-align: center;
+    }
+    .aboutUs_strongText{
         text-align: center;
     }
 
     .jumpHorse {
         display: none;
+    }
+    .problem780off {
+        display: none;
+    }
+    .problem780on {
+        display: block;
     }
 }
